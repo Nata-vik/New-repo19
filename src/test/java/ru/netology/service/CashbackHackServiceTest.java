@@ -3,12 +3,9 @@ package ru.netology.service;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-
 class CashbackHackServiceTest {
 
-
     @Test
-
     void ShouldeCalculateAmountBuyInAddition() {
         CashbackHackService service = new CashbackHackService();
         int amount = 900;
@@ -20,7 +17,6 @@ class CashbackHackServiceTest {
     }
 
     @Test
-
     void ShouldeCalculateAmountBuyInAddition1() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1200;
@@ -32,7 +28,6 @@ class CashbackHackServiceTest {
     }
 
     @Test
-
     void ShouldeCalculateAmountBuyInAddition2() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
